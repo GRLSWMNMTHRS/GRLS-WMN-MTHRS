@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Community Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo-slogan">
+            <img src="path/to/logo.png" alt="Community Logo">
+            <h1>Your Slogan Here</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="home">
+        <h2>Welcome to Our Community</h2>
+        <p>A place for Black girls, women, and mothers to connect, grow, and thrive.</p>
+        
+        <!-- Recent Posts Glimpse -->
+        <div class="recent-posts">
+            <h3>Recent Posts</h3>
+            <div class="post-glimpses">
+                <article>
+                    <h4>Latest Blog Post</h4>
+                    <p>Snippet from the most recent blog post...</p>
+                    <a href="#blog">Read More</a>
+                </article>
+                <article>
+                    <h4>Forum Highlight</h4>
+                    <p>Snippet from the latest forum discussion...</p>
+                    <a href="#forum">Join the Discussion</a>
+                </article>
+                <article>
+                    <h4>Featured Product</h4>
+                    <p>Highlight of a new or popular product...</p>
+                    <a href="#products">View Products</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Page -->
+    <section id="blog" class="blog">
+        <h2>Our Blog</h2>
+        <p>Explore posts on wellness, entrepreneurship, motherhood, and more.</p>
+        
+        <!-- Blog Post List -->
+        <div class="blog-posts">
+            <!-- Blog post examples -->
+            <article>
+                <h3>Blog Post Title</h3>
+                <p>Snippet from the blog post...</p>
+                <a href="post-link.html">Read More</a>
+            </article>
+            <!-- Add more blog posts here as needed -->
+        </div>
+
+        <!-- Blog Search & Navigation -->
+        <div class="blog-navigation">
+            <input type="text" placeholder="Search blog posts...">
+            <button>Search</button>
+            <!-- Pagination or archive links -->
+            <div class="pagination">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forum Page -->
+    <section id="forum" class="forum">
+        <h2>Community Forum</h2>
+        <p>Read discussions or subscribe to participate and respond.</p>
+        
+        <!-- Forum Content -->
+        <div class="forum-content">
+            <div class="thread">
+                <h3>Discussion Topic</h3>
+                <p>Snippet from a forum discussion...</p>
+                <a href="thread-link.html">Read More</a>
+            </div>
+            <!-- More threads -->
+        </div>
+
+        <!-- Subscriber-Only Notice -->
+        <div class="subscriber-only">
+            <p>Subscribe to post and respond in the forum.</p>
+            <a href="subscribe-link.html">Subscribe Now</a>
+        </div>
+    </section>
+
+    <!-- Products Page -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <p>Explore products created to support and inspire Black girls, women, and mothers.</p>
+        
+        <!-- Product Listings -->
+        <div class="product-list">
+            <div class="product">
+                <img src="product-image.jpg" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Brief product description...</p>
+                <button>View Product</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- About Us Page -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <h3>Our Founder</h3>
+            <p>Information about the founder, background, and inspiration for the community...</p>
+            
+            <h3>Our Mission</h3>
+            <p>"Our mission is to empower, uplift, and inspire Black girls, women, and mothers..."</p>
+            
+            <h3>Our Goals</h3>
+            <p>Details on our goals for the community, future vision, and ways we support members.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Community Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="link-to-tiktok">TikTok</a>
+            <a href="link-to-facebook">Facebook</a>
+            <a href="link-to-instagram">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
